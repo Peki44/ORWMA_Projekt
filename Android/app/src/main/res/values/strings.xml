@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Virtual Closet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_clothes">Add clothes</string>
+    <string name="hello_world">hello world</string>
+    <string name="activity_main_empty_view_text">empty</string>
+    <string-array name="types">
+        <item>Choose type</item>
+        <item>Shirts</item>
+        <item>Jeans</item>
+        <item>Shoes</item>
+    </string-array>
+</resources>

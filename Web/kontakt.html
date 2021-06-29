@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>OPG Pernar</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+   </head> 
+   <body>
+      <section class="sub-header">
+         <nav>
+            <h1>OPG PERNAR</h1>
+            <div class="nav-links">
+               <ul>
+                  <li><a href ="index.html">HOME</a></li>
+                  <li><a href ="onama.html">O NAMA</a></li>
+                  <li><a href ="">NAŠI PROIZVODI</a>
+                     <div class="sub-menu-1">
+                        <ul>
+                           <li><a href="pekmezi.html">PEKMEZI</a></li>
+                           <li><a href="sirupi.html">SIRUPI</a></li>
+                           <li><a href="rakija.html">RAKIJA I LIKERI</a></li>
+                           <li><a href="voceipovrce.html">VOĆE I POVRĆE</a></li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li><a href ="trgovina.html">TRGOVINA</a></li>
+                  <li><a href ="kontakt.html">KONTAKT</a></li>
+               </ul>
+            </div>
+         </nav>
+         <h1>Kontakt</h1>
+
+      </section>
+      <section class="location">
+         <p>Nas i naše poljoprivredno gospodarstvo možete pronaći na istoku Hrvatske u gradu Vinkovcima,
+             točnije u gradskom naselju na istoku grada.</p>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d783514.5631364732!2d18.14732829883236!3d45.296581806344804!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475c8a8883c30259%3A0x400ad50862bceb0!2sVinkovci!5e0!3m2!1shr!2shr!4v1623925978439!5
+         m2!1shr!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      </section>
+      <section class="contact-us">
+         <div class="row">
+            <div class="contact-col">
+               <div>
+                  <i class="fa fa-home"></i>
+                  
+                  <span>
+                     <h5>Ulica Vladimira Gortana 41, Vinkovci 32100</h5>
+                     <p>Na ovoj adresi nas možete pronaći</p>
+                  </span>
+               </div>
+               <div>
+                  <i class="fa fa-phone"></i>
+                  <span>
+                     <h5>+385 98 802 814, Dražen Pernar</h5>
+                     <p>Zvati od ponedjeljka do petka, od 10h do 15h</p>
+                  </span>
+               </div>
+               <div>
+                  <i class="fa fa-envelope"></i>
+                  <span>
+                     <h5>dpernar71@gmail.com</h5>
+                     <p>Pošaljite nam vaše upite</p>
+                  </span>
+               </div>
+            </div>
+            <div class="contact-col"></div>
+                <form class="send-form" action="form-handler.php" method="POST">
+                   <input type="text" name="name" placeholder="Unesite svoje ime i prezime" required>
+                   <input type="email" name="email" placeholder="Unesite svoju email adresu" required>
+                   <input type="text" name="subject" placeholder="Unesite naslov" required>
+                   <textarea rows="8" name="message" placeholder="Vaša poruka"required></textarea>
+                   <button type="submit" class="send-btn">Pošalji poruku</button>
+                </form>
+         </div>
+      </section>
+
+   </body>
+</html>
