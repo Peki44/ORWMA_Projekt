@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="40dp"
+    android:padding="30dp"
     tools:context=".add_clothes">
 
     <ImageView
@@ -17,8 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:orientation="horizontal"
-        android:paddingRight="16dp">
+        android:orientation="horizontal">
 
         <Spinner
             android:id="@+id/spinner1"
